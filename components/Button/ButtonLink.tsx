@@ -10,7 +10,7 @@ interface IProps {
 }
 
 const ButtonLink: React.FC<IProps> = ({ url, text, color, leftIcon, rightIcon }) => (
-  <Link className={`button ${color}`} href={`/${url}`}>
+  <Link className={`button ${color}`} href={url}> {/* No need for a leading slash here */}
     {leftIcon !== undefined && (
       <span className='material-symbols-outlined left-icon'>{leftIcon}</span>
     )}

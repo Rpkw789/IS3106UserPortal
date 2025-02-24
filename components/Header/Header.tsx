@@ -56,6 +56,9 @@ const Header: React.FC = () => {
           <Link href='/' className='gray'>
             Home
           </Link>
+          <Link href='/about' className='gray'>
+            About Us
+          </Link>
           <Link href='/contact' className='gray'>
             Contact us
           </Link>

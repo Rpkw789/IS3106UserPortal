@@ -13,7 +13,7 @@ const Page: React.FC = () => (
         <div className='padding-bottom center'>
           <Heading type={1} color='gray' text='Contact us' />
           <p className='gray form-information'>
-            Please feel free to contact us through the following communication channels for any
+           free to contact us through the following communication channels for any
             questions, concerns, or suggestions you may have.
           </p>
         </div>
