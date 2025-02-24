@@ -14,8 +14,8 @@ const Page: React.FC = () => (
     <Section className='white-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Venues' />
-          <p className='gray'>Discover the best venues in London.</p>
+          <Heading type={1} color='gray' text='Locations' />
+          <p className='gray'>Discover the best activities in Singapore.</p>
           <div className='top-search'>
             <FormSearch />
           </div>
@@ -23,7 +23,7 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <CardGroup url='venues' title='Latest venues' color='gray' background='gray'>
+    <CardGroup url='venues' title='Top Picks' color='gray' background='gray'>
       <VenueCard
         url='1'
         color='gray'

@@ -57,7 +57,7 @@ const FormSearch: React.FC = () => {
           name='keyword'
           value={formValues.keyword}
           maxLength={64}
-          placeholder='Venue name, keyword, location'
+          placeholder='location'
           required
           onChange={handleChange}
         />

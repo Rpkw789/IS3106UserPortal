@@ -17,8 +17,8 @@ const Page: React.FC = () => (
           <Heading type={1} color='gray' text='My tickets' />
           <p className='gray form-information'>
             You can access the tickets you purchased from this page at any time. You can download or
-            send your tickets. Please note: You will not be able to see tickets for events that have
-            already ended or been canceled on this page.
+            send your tickets to your email. Please note: You will not be able to see tickets for events that have
+            already ended or been cancelled on this page.
           </p>
           <div className='button-container'>
             <ButtonGroup color='gray'>
@@ -34,21 +34,21 @@ const Page: React.FC = () => (
         <div className='ticket-item'>
           <div className='item-right'>
             <h2>21</h2>
-            <p>September</p>
+            <p>May</p>
             <span className='material-symbols-outlined'>qr_code_2</span>
             <strong>21EX9P</strong>
             <span className='up-border'></span>
             <span className='down-border'></span>
           </div>
           <div className='item-left'>
-            <h5>Event name goes here</h5>
+            <h5>Bungee Jumping</h5>
             <p>
               <span className='material-symbols-outlined'>event</span>
-              Tue, Sep 21, 2024 19:00
+              Tue, May 21, 2025 15:00
             </p>
             <p>
               <span className='material-symbols-outlined'>apartment</span>
-              Royal Albert Hall
+              Sentosa
             </p>
             <div className='actions'>
               <Link href='/members/tickets' title='Download tickets'>
@@ -71,14 +71,14 @@ const Page: React.FC = () => (
             <span className='down-border'></span>
           </div>
           <div className='item-left'>
-            <h5>Event name goes here</h5>
+            <h5>Ice Skating</h5>
             <p>
               <span className='material-symbols-outlined'>event</span>
               Tue, Sep 21, 2024 19:00
             </p>
             <p>
               <span className='material-symbols-outlined'>apartment</span>
-              Royal Albert Hall
+              Kallang Wave Mall
             </p>
             <div className='actions'>
               <Link href='/members/tickets' title='Download tickets'>

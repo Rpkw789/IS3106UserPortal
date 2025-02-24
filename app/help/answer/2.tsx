@@ -7,7 +7,7 @@ import Section from '@components/Section/Section';
 import Heading from '@components/Heading/Heading';
 import ButtonLink from '@components/Button/ButtonLink';
 
-const Page: React.FC = () => (
+const Answer2Page: React.FC = () => (
   <Master>
     <Section className='white-background'>
       <div className='container'>
@@ -20,32 +20,34 @@ const Page: React.FC = () => (
                   Reset your password
                 </Link>
               </li>
+              <li>
+                <Link href='/help/answer/2' className='blue'>
+                  How to View My Tickets?
+                </Link>
+              </li>
             </ul>
           </div>
           <div className='help-right'>
             <Heading type={1} color='gray' text='Help article' />
-
             <div className='help-container'>
-              {/* Card for "How to Reset Your Password" */}
               <div className='card'>
-                <h2 className='card-title'>How to Reset Your Password</h2>
+                <h2 className='card-title'>How to View My Tickets</h2>
                 <div className='card-body'>
-                  <p>If you’ve forgotten your password or need to reset it, follow these simple steps:</p>
+                  <p>If you’ve purchased tickets through WYD?, here’s how you can view them:</p>
                   <ol>
-                    <li><strong>Go to the Login Page:</strong> Start by going to the WYD? login page.</li>
-                    <li><strong>Click on 'Forgot Password?':</strong> Below the password field, you’ll see a "Forgot Password?" link. Click on it.</li>
-                    <li><strong>Enter Your Email:</strong> You’ll be prompted to enter the email address associated with your account.</li>
-                    <li><strong>Check Your Email:</strong> After submitting your email, we’ll send you a password reset link to your inbox.</li>
-                    <li><strong>Reset Your Password:</strong> Open the email and click the link. You’ll be redirected to a page where you can create a new password for your account.</li>
-                    <li><strong>Login with Your New Password:</strong> Once your password is reset, return to the login page and sign in with your new credentials.</li>
+                    <li><strong>Go to Your Account:</strong> Once logged in, navigate to your account by clicking on your profile or the account icon in the top right corner.</li>
+                    <li><strong>Find Your Tickets:</strong> Once on the account page, look for the "My Tickets" section. This will display all your current and past tickets.</li>
+                    <li><strong>Download or Send to Email:</strong>
+                      <ul>
+                        <li>To download a ticket, click the "Download" button next to the ticket you wish to view.</li>
+                        <li>To send a ticket to your email, click the "Send to Email" button. This will send a copy of the ticket to the email address associated with your account.</li>
+                      </ul>
+                    </li>
                   </ol>
-                  <p>If you’re still having trouble, don’t hesitate to contact our support team for further assistance.</p>
+                  <p>That’s it! You’ll now have access to your tickets whenever you need them.</p>
                 </div>
               </div>
-
-              </div>
-
-          
+            </div>
 
             <div className='button-container right'>
               <ButtonLink color='gray-overlay' text='Back to category' url='help/category/1' />
@@ -80,14 +82,14 @@ const Page: React.FC = () => (
   </Master>
 );
 
-const title = 'Help';
-const canonical = 'https://modern-ticketing.com/help/answer/1';
-const description = 'Modern ticketing is a modern ticketing solution';
+const title = 'How to View My Tickets';
+const canonical = 'https://modern-ticketing.com/help/answer/2';
+const description = 'Learn how to view your tickets on WYD?';
 
 export const metadata: Metadata = {
   title,
   description,
-  keywords: 'modern ticketing, help',
+  keywords: 'view tickets',
   alternates: { canonical },
   openGraph: {
     title,
@@ -99,4 +101,4 @@ export const metadata: Metadata = {
   },
 };
 
-export default Page;
+export default Answer2Page;

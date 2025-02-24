@@ -18,7 +18,7 @@ const Footer: React.FC = () => (
           Home
         </Link>
         <Link href='/venues' className='white'>
-          Venues
+          Location
         </Link>
         <Link href='/members/tickets' className='white'>
           My tickets
@@ -38,34 +38,23 @@ const Footer: React.FC = () => (
           Contact us
         </Link>
         <Link href='/promoters' className='white'>
-          For promoters
+          For Businesses
         </Link>
       </div>
       <div className='members'>
-        <Link href='/members/signup' className='white'>
-          Sign up
-        </Link>
-        <span>or</span>
-        <ButtonLink color='blue-filled' text='Sign in' url='members/signin' />
+
       </div>
     </div>
     <div className='newsletter'>
-      <p>Don&apos;t miss the latest on Modern ticketing news and events.</p>
-      <div className='input-container'>
-        <input
-          type='email'
-          name='email'
-          autoComplete='off'
-          placeholder='your@emailaddress.com'
-          required
-        />
-        <button type='submit'>
-          <span className='material-symbols-outlined'>arrow_forward</span>
-        </button>
-      </div>
+      <p>What are you waiting for? Don&apos;t miss the latest on activites and events.</p>
+      <br />
+      <ButtonLink color='blue-filled' text='Sign in' url='members/signin' />
+        <span>  or </span>
+      <ButtonLink color='blue-filled' text='Sign up' url='members/signup' />
+      
     </div>
     <div className='copy'>
-      <span>&copy; 2024 - Modern ticketing</span>
+      <span>&copy; 2025 - What You Doing?</span>
       <div className='terms'>
         <Link href='/legal/privacy-policy'>Privacy policy</Link>
         &nbsp;&bull;&nbsp;

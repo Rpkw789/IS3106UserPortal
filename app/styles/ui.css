@@ -1569,4 +1569,94 @@ input[type='range' i]::-webkit-slider-thumb {
   to {
     opacity: 1;
   }
+
+  
 }
+/* Ensure the header has relative positioning */
+header {
+  position: relative; 
+  display: flex;
+  justify-content: center; /* Keep the navigation centered */
+  align-items: center; /* Vertically center the navigation items */
+  height: 100px; /* Or whatever height fits your design */
+}
+
+/* Logo styles */
+.logo .logo-img {
+  position: absolute;
+  left: -250px; /* Move the image to the far left of its container */
+  top: 40%; /* Vertically center the logo */
+  transform: translateY(-50%); /* Adjust for perfect vertical centering */
+  width: 250px; /* Set the width of the logo */
+  margin-right: 20px; /* Optional space between logo and text */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subscription-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; /* Space between the cards */
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 48%; /* Make each card take up 48% of the container width */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-body {
+  margin: 20px 0;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer .btn {
+  width: 100%;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.gray-background {
+  background-color: #f4f4f4;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center; /* Centering the text */
+  font-weight: bold; /* Making the text bold */
+}
+
+
+

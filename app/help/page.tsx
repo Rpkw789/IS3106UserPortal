@@ -24,95 +24,18 @@ const Page: React.FC = () => (
           <div className='help-top flex flex-v-center flex-space-around'>
             <div className='center'>
               <Heading type={5} color='gray' text='About us' />
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/about' className='blue'>
                 <span className='material-symbols-outlined yellow'>star</span>
-                What is ticketing?
+                What do we do?
               </Link>
             </div>
             <div className='center'>
               <Heading type={5} color='gray' text='Account' />
               <Link href='/help/answer/1' className='blue'>
                 <span className='material-symbols-outlined yellow'>star</span>
-                How to sign in?
+                How to reset my password?
               </Link>
             </div>
-            <div className='center'>
-              <Heading type={5} color='gray' text='Using system' />
-              <Link href='/help/answer/1' className='blue'>
-                <span className='material-symbols-outlined yellow'>star</span>
-                How can I get my tickets?
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Section>
-
-    <Section className='white-background'>
-      <div className='container'>
-        <div className='center'>
-          <Heading type={2} color='gray' text='Featured answers' />
-          <div className='help-bottom flex flex-space-around padding-top padding-bottom'>
-            <div className='help-bottom-box'>
-              <div className='links'>
-                <Heading type={5} color='gray' text='About us' />
-                <Link href='/help/answer/1' className='blue'>
-                  What is ticketing?
-                </Link>
-                <Link href='/help/answer/1' className='blue'>
-                  What is ticketing?
-                </Link>
-              </div>
-
-              <ButtonLink
-                color='gray-overlay'
-                rightIcon='arrow_forward'
-                text='See all'
-                url='help/category/1'
-              />
-            </div>
-            <div className='help-bottom-box'>
-              <div className='links'>
-                <Heading type={5} color='gray' text='Account' />
-                <Link href='/help/answer/1' className='blue'>
-                  How to sign in?
-                </Link>
-                <Link href='/help/answer/1' className='blue'>
-                  What is ticketing?
-                </Link>
-              </div>
-
-              <ButtonLink
-                color='gray-overlay'
-                rightIcon='arrow_forward'
-                text='See all'
-                url='help/category/1'
-              />
-            </div>
-            <div className='help-bottom-box'>
-              <div className='links'>
-                <Heading type={5} color='gray' text='Using system' />
-                <Link href='/help/answer/1' className='blue'>
-                  How can I get my tickets?
-                </Link>
-              </div>
-
-              <ButtonLink
-                color='gray-overlay'
-                rightIcon='arrow_forward'
-                text='See all'
-                url='help/category/1'
-              />
-            </div>
-          </div>
-
-          <div className='button-container'>
-            <ButtonLink
-              color='gray-filled'
-              rightIcon='arrow_forward'
-              text='See all answers'
-              url='help/answers'
-            />
           </div>
         </div>
       </div>

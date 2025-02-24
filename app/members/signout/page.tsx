@@ -17,9 +17,18 @@ const Page: React.FC = () => (
           </p>
 
           <div className='button-container'>
-            <ButtonLink color='gray-overlay' text='Return to home' url='' />
+          <ButtonLink 
+            color="blue-filled" 
+            text="Return to Home" 
+            url="/"  // internal route to the contact page
+          />
             &nbsp; &nbsp;
-            <ButtonLink color='blue-filled' text='Sign in again' url='members/signin' />
+            <ButtonLink 
+            color="blue-filled" 
+            text="Sign In" 
+            url = '/members/signin'
+          />
+           
           </div>
         </div>
       </div>

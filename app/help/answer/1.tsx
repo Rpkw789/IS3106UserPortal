@@ -7,7 +7,7 @@ import Section from '@components/Section/Section';
 import Heading from '@components/Heading/Heading';
 import ButtonLink from '@components/Button/ButtonLink';
 
-const Page: React.FC = () => (
+const Answer1Page: React.FC = () => (
   <Master>
     <Section className='white-background'>
       <div className='container'>
@@ -20,13 +20,16 @@ const Page: React.FC = () => (
                   Reset your password
                 </Link>
               </li>
+              <li>
+                <Link href='/help/answer/2' className='blue'>
+                  How to View My Tickets?
+                </Link>
+              </li>
             </ul>
           </div>
           <div className='help-right'>
             <Heading type={1} color='gray' text='Help article' />
-
             <div className='help-container'>
-              {/* Card for "How to Reset Your Password" */}
               <div className='card'>
                 <h2 className='card-title'>How to Reset Your Password</h2>
                 <div className='card-body'>
@@ -42,10 +45,7 @@ const Page: React.FC = () => (
                   <p>If you’re still having trouble, don’t hesitate to contact our support team for further assistance.</p>
                 </div>
               </div>
-
-              </div>
-
-          
+            </div>
 
             <div className='button-container right'>
               <ButtonLink color='gray-overlay' text='Back to category' url='help/category/1' />
@@ -80,14 +80,14 @@ const Page: React.FC = () => (
   </Master>
 );
 
-const title = 'Help';
+const title = 'How to Reset Your Password';
 const canonical = 'https://modern-ticketing.com/help/answer/1';
-const description = 'Modern ticketing is a modern ticketing solution';
+const description = 'Learn how to reset your password on WYD?';
 
 export const metadata: Metadata = {
   title,
   description,
-  keywords: 'modern ticketing, help',
+  keywords: 'password reset',
   alternates: { canonical },
   openGraph: {
     title,
@@ -99,4 +99,4 @@ export const metadata: Metadata = {
   },
 };
 
-export default Page;
+export default Answer1Page;

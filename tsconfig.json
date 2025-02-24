@@ -35,6 +35,6 @@
     "eslint.config.mjs",
     ".next/types/**/*.ts",
     "build/types/**/*.ts"
-  ],
+, "components/TicketActions/TicketAction.js"  ],
   "exclude": ["node_modules"]
 }
